@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		F314BAD5250FD1CA0075BFFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F314BAD4250FD1CA0075BFFC /* AppDelegate.swift */; };
 		F314BAD7250FD1CA0075BFFC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F314BAD6250FD1CA0075BFFC /* SceneDelegate.swift */; };
-		F314BAD9250FD1CA0075BFFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F314BAD8250FD1CA0075BFFC /* ViewController.swift */; };
-		F314BADC250FD1CA0075BFFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F314BADA250FD1CA0075BFFC /* Main.storyboard */; };
 		F314BADE250FD1CB0075BFFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F314BADD250FD1CB0075BFFC /* Assets.xcassets */; };
 		F314BAE1250FD1CB0075BFFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F314BADF250FD1CB0075BFFC /* LaunchScreen.storyboard */; };
+		F314BAE9250FD22B0075BFFC /* FriendZonesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F314BAE8250FD22B0075BFFC /* FriendZonesViewController.swift */; };
+		F314BAEB250FD3900075BFFC /* FriendCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F314BAEA250FD3900075BFFC /* FriendCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F314BAD1250FD1CA0075BFFC /* Collections.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Collections.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F314BAD4250FD1CA0075BFFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F314BAD6250FD1CA0075BFFC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F314BAD8250FD1CA0075BFFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F314BADB250FD1CA0075BFFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F314BADD250FD1CB0075BFFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F314BAE0250FD1CB0075BFFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F314BAE2250FD1CB0075BFFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F314BAE8250FD22B0075BFFC /* FriendZonesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendZonesViewController.swift; sourceTree = "<group>"; };
+		F314BAEA250FD3900075BFFC /* FriendCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +58,8 @@
 			children = (
 				F314BAD4250FD1CA0075BFFC /* AppDelegate.swift */,
 				F314BAD6250FD1CA0075BFFC /* SceneDelegate.swift */,
-				F314BAD8250FD1CA0075BFFC /* ViewController.swift */,
-				F314BADA250FD1CA0075BFFC /* Main.storyboard */,
+				F314BAE8250FD22B0075BFFC /* FriendZonesViewController.swift */,
+				F314BAEA250FD3900075BFFC /* FriendCell.swift */,
 				F314BADD250FD1CB0075BFFC /* Assets.xcassets */,
 				F314BADF250FD1CB0075BFFC /* LaunchScreen.storyboard */,
 				F314BAE2250FD1CB0075BFFC /* Info.plist */,
@@ -94,7 +94,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1170;
-				LastUpgradeCheck = 1170;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "Ben Gohlke";
 				TargetAttributes = {
 					F314BAD0250FD1CA0075BFFC = {
@@ -127,7 +127,6 @@
 			files = (
 				F314BAE1250FD1CB0075BFFC /* LaunchScreen.storyboard in Resources */,
 				F314BADE250FD1CB0075BFFC /* Assets.xcassets in Resources */,
-				F314BADC250FD1CA0075BFFC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +137,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F314BAD9250FD1CA0075BFFC /* ViewController.swift in Sources */,
 				F314BAD5250FD1CA0075BFFC /* AppDelegate.swift in Sources */,
 				F314BAD7250FD1CA0075BFFC /* SceneDelegate.swift in Sources */,
+				F314BAE9250FD22B0075BFFC /* FriendZonesViewController.swift in Sources */,
+				F314BAEB250FD3900075BFFC /* FriendCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F314BADA250FD1CA0075BFFC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F314BADB250FD1CA0075BFFC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F314BADF250FD1CB0075BFFC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -192,6 +184,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -216,7 +209,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -252,6 +245,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -270,7 +264,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
